@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632888776873",
+    "project_id": "vutesting-48f0e",
+    "storage_bucket": "vutesting-48f0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632888776873:android:fa88f9c63f3959bb32f1b8",
+        "android_client_info": {
+          "package_name": "com.example.vu_assignment_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd6ocAdHrj0DU0cNIBUPQAI5LJxfyTMh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
