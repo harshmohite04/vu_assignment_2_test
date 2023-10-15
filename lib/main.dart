@@ -4,7 +4,7 @@ import 'home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+   await Firebase.initializeApp(options: FirebaseOptions(apiKey: 'AIzaSyBd6ocAdHrj0DU0cNIBUPQAI5LJxfyTMh4', appId: '1:632888776873:android:fa88f9c63f3959bb32f1b8', messagingSenderId: '632888776873', projectId: 'vutesting-48f0e'));
   runApp(const FirstPage());
 }
 
