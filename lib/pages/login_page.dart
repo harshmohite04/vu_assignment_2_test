@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  final VoidCallback showRegisterPage;
+  const LoginPage({Key? key, required this.showRegisterPage}) : super(key: key);
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -77,6 +77,7 @@ class _LoginPageState extends State<LoginPage> {
                       fillColor: Color(0xFFE4D5EB),
                       filled: true,
                     ),
+                    style: TextStyle(color: Colors.black),
                   ),
                 ],
               ),
@@ -110,6 +111,7 @@ class _LoginPageState extends State<LoginPage> {
                       fillColor: Color(0xFFE4D5EB),
                       filled: true,
                     ),
+                    style: TextStyle(color: Colors.black),
                   ),
                 ],
               ),
@@ -144,7 +146,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
                   padding: EdgeInsets.all(15),
                   decoration: BoxDecoration(
-                    color: Colors.deepPurple,
+                    color: Color(0xFFA900C5),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Center(
@@ -158,6 +160,32 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+
+                Text(
+                  'Not a member ? ',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: widget.showRegisterPage(),
+                  child: Text(
+                    'Register Now',
+                    style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w500),
+                  ),
+                ),
+              ],
             )
           ],
         ),

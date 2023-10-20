@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "632888776873",
-    "project_id": "vutesting-48f0e",
-    "storage_bucket": "vutesting-48f0e.appspot.com"
+    "project_number": "357657573876",
+    "project_id": "vutesting-90023",
+    "storage_bucket": "vutesting-90023.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:632888776873:android:fa88f9c63f3959bb32f1b8",
+        "mobilesdk_app_id": "1:357657573876:android:849fcd149ca0cfdf4d61a1",
         "android_client_info": {
           "package_name": "com.example.vu_assignment_2"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBd6ocAdHrj0DU0cNIBUPQAI5LJxfyTMh4"
+          "current_key": "AIzaSyBv6TFLMLT7V29Bt9X-3jo0_9-GFvaJL8A"
         }
       ],
       "services": {

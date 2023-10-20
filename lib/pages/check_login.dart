@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:vu_assignment_2/login_page.dart';
+import 'package:vu_assignment_2/auth/authPage.dart';
 
 import 'Access_page.dart';
 
@@ -21,7 +21,7 @@ class _homePageState extends State<homePage> {
           if(snapshot.hasData){
             return AccessPage();
           }else{
-            return LoginPage();
+            return authPage();
           }
         },
       ),

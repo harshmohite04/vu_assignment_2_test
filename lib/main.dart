@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'home_page.dart';
+import 'pages/check_login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-   await Firebase.initializeApp(options: FirebaseOptions(apiKey: 'AIzaSyBd6ocAdHrj0DU0cNIBUPQAI5LJxfyTMh4', appId: '1:632888776873:android:fa88f9c63f3959bb32f1b8', messagingSenderId: '632888776873', projectId: 'vutesting-48f0e'));
+   await Firebase.initializeApp(options: FirebaseOptions(apiKey: 'AIzaSyBv6TFLMLT7V29Bt9X-3jo0_9-GFvaJL8A', appId: '1:357657573876:android:849fcd149ca0cfdf4d61a1', messagingSenderId: '357657573876', projectId: 'vutesting-90023'));
   runApp(const FirstPage());
 }
 
@@ -19,7 +19,7 @@ class FirstPage extends StatelessWidget {
         primaryColor: Color(0xFF0A0E21),
         scaffoldBackgroundColor: Color(0xFF0A0E21),
       ),
-      home: homePage(), // Use the homePage directly as the home property.
+      home: checkLogin(), // Use the homePage directly as the home property.
     );
   }
 }
